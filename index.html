@@ -5,22 +5,25 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="./assets/css/">
       <link rel="stylesheet" href="./assets/scss/main.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
       <title>Document</title>
    </head>
-   <body class="body">
-      <nav class="navbar navbar-expand-lg">
-         <div class="container">
+   <body>
+      <nav>
+         <div class="nav-container">
             <a class="navbar-brand" href="">
             <img src="./assets/images/home-nav-icon.png" alt="" class="logo">
             </a>
-            <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>-->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav mx-auto gap-4">
+            <div class="nav-list-container">
+               <ul class="nav-list">
                   <li class="nav-item">
-                     <a class="nav-link" aria-current="page" href="">Services</a>
+                     <a class="nav-link" href="">Services</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="">About Us</a>
@@ -35,9 +38,9 @@
                      <a class="nav-link">Contact</a>
                   </li>
                </ul>
-               <div class="d-flex">
-                  <button class="btn-nav">Let's Talk</button>
-               </div>
+            </div>
+            <div class="nav-button-container">
+               <button class="btn-nav">Let's Talk</button>
             </div>
          </div>
       </nav>
@@ -48,26 +51,26 @@
             <button class="first-sect-btn">Make an appointment</button>
          </div>
          <div>
-            <img src="./assets/images/home-first-sect-dog-cats.png" alt="dog-cats">
+            <img src="./assets/images/home-first-section-dog-cat.jpg" alt="dog-cats">
          </div>
       </section>
       <section class="second-section">
-         <img src="./assets/images/home-second-sect-dog-cat.png" alt="cat-dog">
+         <img class="second-sect-img" src="./assets/images/home-second-sect-dog-cat.png" alt="cat-dog">
       </section>
       <section class="third-section">
          <div>
-            <h1>Optimal Health for<br/> Furry Friends:<br/>Comprehensive Vetenary Services</h1>
-            <button>View more</button>
+            <h1 class="third-sect-heading">Optimal Health for<br/> Furry Friends:<br/>Comprehensive<br/> Vetenary Services</h1>
+            <button class="third-sect-btn">View more</button>
          </div>
          <div class="box-container">
-            <div class="row">
+            <div class="row-1">
                <!-- First column -->
                <div class="col-md-1">
                   <div class="card">
                      <div class="card-body">
                         <img src="./assets/images/home-paw-icon.png" alt="paw">
                         <h2 class="third-section-heading">Physical Exam</h2>
-                        <p>Schedule physical exams for your pet on a regular basis</p>
+                        <p>Schedule physical exams<br/> for your pet on a regular basis</p>
                         <a class="third-section-link" href="">View more</a>
                      </div>
                   </div>
@@ -78,20 +81,20 @@
                      <div class="card-body">
                         <img src="./assets/images/home-syringe-icon-1.png" alt="syringe">
                         <h2 class="third-section-heading">Pet Vaccination</h2>
-                        <p>Schedule regular vaccinations to prevent the spread of illness</p>
+                        <p>Schedule regular vaccinations<br/> to prevent the spread of illness</p>
                         <a class="third-section-link" href="">View more</a>
                      </div>
                   </div>
                </div>
             </div>
-            <div class="row">
+            <div class="row-2">
                <!-- Third column -->
                <div class="col-md-3">
                   <div class="card">
                      <div class="card-body">
                         <img src="./assets/images/home-body-cream-icon1.png" alt="cream">
                         <h2 class="third-section-heading">Skin Care</h2>
-                        <p>Make sure to apply proper skin care for your pet</p>
+                        <p>Make sure to apply proper skin<br/> care for your pet</p>
                         <a class="third-section-link"  href="">View more</a>
                      </div>
                   </div>
@@ -102,7 +105,7 @@
                      <div class="card-body">
                         <img src="./assets/images/home-bone-icon1.png" alt="bone">
                         <h2 class="third-section-heading">Pet Nutrition</h2>
-                        <p>Insure that you pet maintains a nutritious diet on a relgular basis</p>
+                        <p>Insure that you pet maintains<br/> a nutritious diet<br/> on a relgular basis</p>
                         <a class="third-section-link" href="">View more</a>
                      </div>
                   </div>
@@ -123,31 +126,38 @@
             <img src="./assets/images/home-sect4-dog.png" alt="dog">
          </div>
       </section>
-      <footer>
+      <footer class="footer">
          <div class="footer-logo">
             <img src="./assets/images/home-footer-logo.png" alt="logo">
          </div>
-         <div>
-            <p>Jl.Pb Sudirman, Jakarta, Indonesia<br/>info@gmail.com</p>
+         <div class="footer-links-container">
+            <div>
+               <p>Jl.Pb Sudirman, Jakarta, Indonesia<br/>info@gmail.com</p>
+            </div>
+            <div>
+               <ul class="footer-list">
+                  <li class="footer-list-item">Services</li>
+                  <li class="footer-list-item">About us</li>
+                  <li class="footer-list-item">Locations & hours</li>
+                  <li class="footer-list-item">Blog</li>
+                  <li class="footer-list-item">Contact</li>
+               </ul>
+            </div>
          </div>
-         <div>
-            <ul>
-               <li>Services</li>
-               <li>About us</li>
-               <li>Locations & hours</li>
-               <li>Blog</li>
-               <li>Contact</li>
-            </ul>
+      
          </div>
-         <div>
-            <p>&copy; 2024 Example, Inc. &bull; Privacy &bull; Terms &bull; Sitemap</p>
+         <div class="media-links-container">
+            <div>
+               <p>&copy; 2024 Example, Inc. &bull; Privacy &bull; Terms &bull; Sitemap</p>
+            </div>
+            <div>
+               <img class="footer-icons" src="./assets/images/Twitter 1.png" alt="twitter">
+               <img class="footer-icons" src="./assets/images/Facebook 1.png" alt="facebook">
+               <img class="footer-icons" src="./assets/images/LinkedIn 1.png" alt="linkedIn">
+               <img class="footer-icons" src="./assets/images/YouTube 1.png" alt="youTube">
+            </div>
          </div>
-         <div>
-            <img src="./assets/images/Twitter 1.png" alt="twitter">
-            <img src="./assets/images/Facebook 1.png" alt="facebook">
-            <img src="./assets/images/LinkedIn 1.png" alt="linkedIn">
-            <img src="./assets/images/YouTube 1.png" alt="youTube">
-         </div>
+         
       </footer>
    </body>
 </html>
