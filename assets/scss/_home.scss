@@ -16,6 +16,7 @@ $font-family-2: Noto Sans;
 $box-border-color:  1px solid #9BEFE0;
 $box-border-radius: 6px;
 $forth-section-btn-background-color: #9BEFE0;
+$box-link-color: #323842;
 
 
 
@@ -69,6 +70,7 @@ $forth-section-btn-background-color: #9BEFE0;
 @mixin navLink(){
   text-decoration: none;
   color:$nav-text-color;
+  cursor: pointer;
 }
 
 @mixin firstSection(){
@@ -115,7 +117,7 @@ margin-top: 203px;
   border-radius: 26px;
   border: none;
   font-size: 18px;
-  margin-left: 100px;
+  margin-left: 150px;
   font-family: $font-family-2;
   color:$button-text-color-2;
   cursor: pointer;
@@ -228,8 +230,26 @@ margin-top: 203px;
   border-radius: $box-border-radius;
   padding-left: 24px;
   padding-right: 24px;
-  padding-bottom: 80px;
-  padding-top: 80px;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  width: 270px;
+  height: 242px;
+  
+}
+
+.col-md-1{
+  margin-right: 20px;
+  margin-left: 200px;
+}
+
+.col-md-3{
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.col-md-4{
+  margin-top: 20px;
 }
 
 .forth-section{
@@ -268,7 +288,7 @@ margin-top: 203px;
   color: $button-text-color-1;
   font-family: $font-family-2;
   white-space: nowrap;
-  margin-left: 58px;
+  margin-left: 90px;
   font-size: 20px;
 }
 
@@ -306,9 +326,17 @@ margin-top: 203px;
 }
 
 .footer-list-item{
-  margin-left: 10px;
+  margin-left: 30px;
+  font-family: $font-family-2;
+  cursor: pointer;
 }
 
 .footer-icons{
   margin-left: 10px ;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.third-section-link{
+  color:$box-link-color;
 }
