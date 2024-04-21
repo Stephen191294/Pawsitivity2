@@ -1,4 +1,4 @@
-$button-background-color-1:  #1A4E8D;
+/**$button-background-color-1:  #1A4E8D;
 $button-text-color-1: #FFFFFF;
 $button-background-color-2: #9BEFE0;
 $button-text-color-2: #116B5A;
@@ -45,6 +45,7 @@ $box-link-color: #323842;
   color: $nav-text-color;
   display: flex;
   justify-content: space-between;
+ 
   
 }
 
@@ -53,7 +54,7 @@ $box-link-color: #323842;
   margin-left: 47px;
   font-size: 18px;
   white-space: nowrap;
-  
+  font-family: $font-family-2;
 }
 
 @mixin blueButton(){
@@ -341,5 +342,10 @@ margin-top: 203px;
 
 .third-section-link{
   color:$box-link-color;
+}
+*//
+
+.first-section-home{
+  background-color: red;
 }
 
