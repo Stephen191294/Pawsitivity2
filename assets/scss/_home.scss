@@ -2,12 +2,29 @@
 @import "./variables";
 
 .sect-1-home {
+  padding: 20px 0 20px;
+  p {
+    color: $black700;
+  }
   .container {
-    background-color: red;
     .row {
-      h1 {
-        font-family: $poppins;
-        color: $mainColor;
+      .col-md-6 {
+        h1 {
+          font-size: 52px;
+          color: $mainColor;
+          line-height: 1.4;
+          font-weight: 400;
+          margin-bottom: 10px;
+        }
+        p {
+          margin-bottom: 25px;
+        }
+        a {
+          background-color: $lightGreen400;
+          color: $green900;
+          padding: 10px 25px;
+          border-radius: 20px;
+        }
       }
     }
   }
