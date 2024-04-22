@@ -1,5 +1,14 @@
-.sect-1-home{
-  .container{
-    background-color: aquamarine;
+@import "./globals";
+@import "./variables";
+
+.sect-1-home {
+  .container {
+    background-color: red;
+    .row {
+      h1 {
+        font-family: $poppins;
+        color: $mainColor;
+      }
+    }
   }
 }
