@@ -49,9 +49,11 @@
    padding-top: 10px;
    border-radius: 26px;
    color:$mainColor2;
-   width: 200px;
+   width: 244px;
    height: 52px;
    font-size: 18px;
+   font-weight: 400;
+   line-height: 28px;
    margin-top: 146px;
   }
   h1{
@@ -68,6 +70,9 @@
   border: 1px solid  $lightGreen400;
   border-radius: 6px;
   margin-top: 24px;
+  padding:20px;
+  width:270px;
+  height: 242px;
 }
 
 
@@ -109,7 +114,7 @@
   }
   a{
     color:$black700;
-    margin-left: 10px;
+    margin-left: 20px;
     white-space: nowrap;
     font-size: 16px;
     font-weight: 400;
@@ -117,11 +122,18 @@
   }
   img{
     margin-left: 10px;
+    margin-top: 10px;
   }
 }
 
 .img-footer{
   img{
     margin-top: 74px;
+  }
+}
+
+.footer{
+  p{
+    margin-top: 10px;
   }
 }

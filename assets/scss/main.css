@@ -177,9 +177,11 @@ section {
   padding-top: 10px;
   border-radius: 26px;
   color: #ffffff;
-  width: 200px;
+  width: 244px;
   height: 52px;
   font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
   margin-top: 146px;
 }
 .sect-3-home h1 {
@@ -194,6 +196,9 @@ section {
   border: 1px solid #9befe0;
   border-radius: 6px;
   margin-top: 24px;
+  padding: 20px;
+  width: 270px;
+  height: 242px;
 }
 
 .sect-4-home {
@@ -232,7 +237,7 @@ section {
 }
 .content-foot-right a {
   color: #171a1f;
-  margin-left: 10px;
+  margin-left: 20px;
   white-space: nowrap;
   font-size: 16px;
   font-weight: 400;
@@ -240,8 +245,13 @@ section {
 }
 .content-foot-right img {
   margin-left: 10px;
+  margin-top: 10px;
 }
 
 .img-footer img {
   margin-top: 74px;
+}
+
+.footer p {
+  margin-top: 10px;
 }/*# sourceMappingURL=main.css.map */
