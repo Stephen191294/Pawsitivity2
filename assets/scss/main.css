@@ -254,4 +254,132 @@ section {
 
 .footer p {
   margin-top: 10px;
+}
+
+.sect-1-services {
+  display: flex;
+  padding-right: 107px;
+  padding-left: 132px;
+  justify-content: space-between;
+}
+.sect-1-services h1 {
+  color: #1a4e8d;
+  font-size: 52px;
+}
+
+.sect-2-services {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0fcfa;
+  height: 392px;
+}
+.sect-2-services a {
+  display: block;
+  background-color: #171a1f;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  width: 261px;
+  height: 52px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 26px;
+}
+
+.sect-3-services {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff3f0;
+}
+.sect-3-services a {
+  display: block;
+  background-color: #171a1f;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  width: 261px;
+  height: 52px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 26px;
+}
+
+.sect-4-services {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fffae7;
+}
+.sect-4-services a {
+  display: block;
+  background-color: #171a1f;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  width: 261px;
+  height: 52px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 26px;
+}
+
+.sect-5-services {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0fcfa;
+}
+.sect-5-services a {
+  display: block;
+  background-color: #171a1f;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  width: 261px;
+  height: 52px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 26px;
+}
+
+.lower-btn-services a {
+  display: block;
+  margin-top: 60px;
+  background-color: #ffffff;
+  color: #1a4e8d;
+  border: 1px solid #1a4e8d;
+  text-align: center;
+  padding-top: 10px;
+  width: 261px;
+  height: 52px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 26px;
+}
+
+.container-services {
+  margin-bottom: 200px;
+}
+.container-services img {
+  position: absolute;
+  margin-bottom: 300px;
+  z-index: 2;
+}
+
+.blue-strip {
+  position: relative;
+  background-color: #1a4e8d;
+  height: 314px;
+  z-index: -2;
+}
+
+.custom-box-services {
+  display: flex;
+  position: absolute;
+  background-color: #ffffff;
+  height: 430px;
+  width: 468px;
+  border-radius: 12px 0 0 12px;
+  z-index: 2;
+}
+.custom-box-services h3 {
+  color: #1a4e8d;
 }/*# sourceMappingURL=main.css.map */
