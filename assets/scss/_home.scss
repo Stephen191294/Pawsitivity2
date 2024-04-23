@@ -145,6 +145,7 @@
   display: flex;
   padding-right: 107px;
   padding-left:  132px;
+  padding-bottom: 72px;
   justify-content: space-between;
   h1{
     color:$mainColor;
@@ -159,6 +160,13 @@
   justify-content: space-between;
   background-color:$lightGreen200;
   height: 392px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding:0;
+  img{
+    border-radius: 12px;
+  }
   a{
     display: block;
     background-color: $black700;
@@ -178,6 +186,13 @@
   display: flex;
   justify-content: space-between;
   background-color: $lightRed200;
+  height: 392px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 12px;
+  margin-top: 58px;
+  padding:0;
+  
   a{
     display: block;
     background-color: $black700;
@@ -197,6 +212,13 @@
   display: flex;
   justify-content: space-between;
   background-color: $lightYellow200;
+  height: 392px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 58px;
+  border-radius: 12px;
+  padding: 0;
+
   a{
     display: block;
     background-color: $black700;
@@ -216,6 +238,13 @@
   display: flex;
   justify-content: space-between;
   background-color: $lightGreen200;
+  height: 392px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 12px;
+  margin-top: 58px;
+  padding:0;
+  
   a{
     display: block;
     background-color: $black700;
@@ -232,6 +261,7 @@
 }
 
 .lower-btn-services{
+  text-align: center;
   a{
     display: block;
     margin-top: 60px;
@@ -243,7 +273,6 @@
     width: 261px;
     height: 52px;
     font-size: 18px;
-    text-align: center;
     border-radius: 26px;
 
   }

@@ -260,6 +260,7 @@ section {
   display: flex;
   padding-right: 107px;
   padding-left: 132px;
+  padding-bottom: 72px;
   justify-content: space-between;
 }
 .sect-1-services h1 {
@@ -272,6 +273,13 @@ section {
   justify-content: space-between;
   background-color: #f0fcfa;
   height: 392px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 0;
+}
+.sect-2-services img {
+  border-radius: 12px;
 }
 .sect-2-services a {
   display: block;
@@ -290,6 +298,12 @@ section {
   display: flex;
   justify-content: space-between;
   background-color: #fff3f0;
+  height: 392px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 12px;
+  margin-top: 58px;
+  padding: 0;
 }
 .sect-3-services a {
   display: block;
@@ -308,6 +322,12 @@ section {
   display: flex;
   justify-content: space-between;
   background-color: #fffae7;
+  height: 392px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 58px;
+  border-radius: 12px;
+  padding: 0;
 }
 .sect-4-services a {
   display: block;
@@ -326,6 +346,12 @@ section {
   display: flex;
   justify-content: space-between;
   background-color: #f0fcfa;
+  height: 392px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 12px;
+  margin-top: 58px;
+  padding: 0;
 }
 .sect-5-services a {
   display: block;
@@ -340,6 +366,9 @@ section {
   border-radius: 26px;
 }
 
+.lower-btn-services {
+  text-align: center;
+}
 .lower-btn-services a {
   display: block;
   margin-top: 60px;
@@ -351,7 +380,6 @@ section {
   width: 261px;
   height: 52px;
   font-size: 18px;
-  text-align: center;
   border-radius: 26px;
 }
 
