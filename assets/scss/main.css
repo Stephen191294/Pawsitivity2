@@ -423,10 +423,13 @@ section {
   text-align: center;
   border-radius: 26px;
 }
+.sect-5-services img {
+  padding-top: 27px;
+}
 
 .lower-btn-services {
   text-align: center;
-  margin-left: 40%;
+  margin-left: 43%;
 }
 .lower-btn-services a {
   display: block;
@@ -443,7 +446,7 @@ section {
 }
 
 .container-services {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   margin-bottom: 200px;
 }
@@ -467,10 +470,29 @@ section {
   height: 430px;
   width: 468px;
   border-radius: 12px 0 0 12px;
+  box-shadow: -2px -1px 4px 0px gray;
   z-index: 2;
 }
 .custom-box-services h3 {
   color: #1a4e8d;
+}
+.custom-box-services .custom-box-puppy {
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0px -1px 4px 0px gray;
+}
+.custom-box-services .custom-box-container {
+  padding-top: 36px;
+  padding-left: 48px;
+  padding-right: 50px;
+}
+.custom-box-services .custom-box-container p {
+  margin-top: 36px;
+}
+.custom-box-services .icon-btn-3 {
+  position: absolute;
+  top: 350px;
+  left: 419px;
+  cursor: pointer;
 }
 
 .avatar-andrea {
@@ -485,4 +507,18 @@ section {
 }
 .avatar-andrea .rating .stars {
   margin-top: 20px;
+}
+
+.footer-services {
+  padding: 0 148px 0 132px;
+}
+.footer-services p {
+  margin-top: 10px;
+}
+
+.puppy .icon-btn-2 {
+  position: absolute;
+  top: 350px;
+  left: 481px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
