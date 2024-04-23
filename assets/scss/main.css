@@ -266,6 +266,8 @@ section {
 .sect-1-services h1 {
   color: #1a4e8d;
   font-size: 52px;
+  line-height: 74px;
+  font-weight: 400;
 }
 
 .sect-2-services {
@@ -277,6 +279,20 @@ section {
   margin: 0 auto;
   border-radius: 12px;
   padding: 0;
+}
+.sect-2-services .sect-2-container {
+  padding-top: 76px;
+  padding-left: 72px;
+}
+.sect-2-services .sect-2-container .black-btn {
+  margin-top: 24px;
+}
+.sect-2-services .sect-2-container .hour-price {
+  color: #1a4e8d;
+  font-size: 20px;
+}
+.sect-2-services .sect-2-container p {
+  margin-top: 12px;
 }
 .sect-2-services img {
   border-radius: 12px;
@@ -305,6 +321,20 @@ section {
   margin-top: 58px;
   padding: 0;
 }
+.sect-3-services .sect-3-container {
+  padding-top: 76px;
+  padding-left: 72px;
+}
+.sect-3-services .sect-3-container .black-btn {
+  margin-top: 24px;
+}
+.sect-3-services .sect-3-container .hour-price {
+  color: #1a4e8d;
+  font-size: 20px;
+}
+.sect-3-services .sect-3-container p {
+  margin-top: 12px;
+}
 .sect-3-services a {
   display: block;
   background-color: #171a1f;
@@ -328,6 +358,20 @@ section {
   margin-top: 58px;
   border-radius: 12px;
   padding: 0;
+}
+.sect-4-services .sect-4-container {
+  padding-top: 76px;
+  padding-left: 72px;
+}
+.sect-4-services .sect-4-container .black-btn {
+  margin-top: 24px;
+}
+.sect-4-services .sect-4-container .hour-price {
+  color: #1a4e8d;
+  font-size: 20px;
+}
+.sect-4-services .sect-4-container p {
+  margin-top: 12px;
 }
 .sect-4-services a {
   display: block;
@@ -353,6 +397,20 @@ section {
   margin-top: 58px;
   padding: 0;
 }
+.sect-5-services .sect-5-container {
+  padding-top: 76px;
+  padding-left: 72px;
+}
+.sect-5-services .sect-5-container .black-btn {
+  margin-top: 24px;
+}
+.sect-5-services .sect-5-container .hour-price {
+  color: #1a4e8d;
+  font-size: 20px;
+}
+.sect-5-services .sect-5-container p {
+  margin-top: 12px;
+}
 .sect-5-services a {
   display: block;
   background-color: #171a1f;
@@ -368,6 +426,7 @@ section {
 
 .lower-btn-services {
   text-align: center;
+  margin-left: 40%;
 }
 .lower-btn-services a {
   display: block;
@@ -384,6 +443,8 @@ section {
 }
 
 .container-services {
+  width: 50%;
+  margin: 0 auto;
   margin-bottom: 200px;
 }
 .container-services img {
@@ -410,4 +471,18 @@ section {
 }
 .custom-box-services h3 {
   color: #1a4e8d;
+}
+
+.avatar-andrea {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.avatar-andrea .rating {
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.avatar-andrea .rating .stars {
+  margin-top: 20px;
 }/*# sourceMappingURL=main.css.map */

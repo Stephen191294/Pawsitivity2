@@ -150,6 +150,8 @@
   h1{
     color:$mainColor;
     font-size: 52px;
+    line-height: 74px;
+    font-weight: 400;
   }
   
 
@@ -164,6 +166,20 @@
   margin: 0 auto;
   border-radius: 12px;
   padding:0;
+  .sect-2-container{
+    padding-top: 76px;
+    padding-left: 72px;
+    .black-btn{
+      margin-top: 24px;
+    }
+    .hour-price{
+      color:$mainColor;
+      font-size: 20px;
+    }
+    p{
+      margin-top: 12px;
+    }
+  }
   img{
     border-radius: 12px;
   }
@@ -178,7 +194,7 @@
     font-size: 18px;
     text-align: center;
     border-radius: 26px;
-
+    
   }
 }
 
@@ -192,7 +208,20 @@
   border-radius: 12px;
   margin-top: 58px;
   padding:0;
-  
+  .sect-3-container{
+    padding-top: 76px;
+    padding-left: 72px;
+    .black-btn{
+      margin-top: 24px;
+    }
+    .hour-price{
+      color:$mainColor;
+      font-size: 20px;
+    }
+    p{
+      margin-top: 12px;
+    }
+  }
   a{
     display: block;
     background-color: $black700;
@@ -218,7 +247,20 @@
   margin-top: 58px;
   border-radius: 12px;
   padding: 0;
-
+ .sect-4-container{
+  padding-top: 76px;
+  padding-left: 72px;
+  .black-btn{
+    margin-top: 24px;
+  }
+  .hour-price{
+    color:$mainColor;
+    font-size: 20px;
+  }
+  p{
+    margin-top: 12px;
+  }
+ }
   a{
     display: block;
     background-color: $black700;
@@ -244,7 +286,20 @@
   border-radius: 12px;
   margin-top: 58px;
   padding:0;
-  
+  .sect-5-container{
+    padding-top: 76px;
+    padding-left: 72px;
+    .black-btn{
+      margin-top: 24px;
+    }
+    .hour-price{
+      color:$mainColor;
+      font-size: 20px;
+    }
+    p{
+      margin-top: 12px;
+    }
+  }
   a{
     display: block;
     background-color: $black700;
@@ -262,6 +317,7 @@
 
 .lower-btn-services{
   text-align: center;
+  margin-left: 40%;
   a{
     display: block;
     margin-top: 60px;
@@ -280,6 +336,8 @@
 }
 
 .container-services{
+  width: 50%;
+  margin: 0 auto;
   margin-bottom: 200px;
   img{
     position: absolute;
@@ -306,5 +364,19 @@
   z-index: 2;
   h3{
     color:$mainColor;
+  }
+}
+
+.avatar-andrea{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  .rating{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    .stars{
+      margin-top: 20px;
+    }
   }
 }
