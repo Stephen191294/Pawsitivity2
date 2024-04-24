@@ -517,4 +517,80 @@ section {
   top: 350px;
   left: 481px;
   cursor: pointer;
+}
+
+.sect-1-service-detail {
+  display: flex;
+  justify-content: space-between;
+  padding: 56px 132px 127px 132px;
+}
+.sect-1-service-detail .sect-1-container {
+  margin-top: 230px;
+}
+.sect-1-service-detail .sect-1-container p {
+  margin-bottom: 24px;
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.sect-1-service-detail .sect-1-container a {
+  background-color: #9befe0;
+  color: #116b5a;
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+.sect-1-service-detail .sect-1-container h1 {
+  color: #1a4e8d;
+  line-height: 74px;
+  font-weight: 400;
+  font-size: 52px;
+}
+
+.sect-2-service-detail {
+  display: flex;
+  padding: 72px 182px 72px 132px;
+}
+.sect-2-service-detail .col-md-6 {
+  display: flex;
+  margin: 0;
+}
+.sect-2-service-detail .box-1 {
+  background-color: #1a4e8d;
+  width: 270px;
+  height: 242px;
+  border-radius: 6px;
+}
+.sect-2-service-detail .box-1 p {
+  color: #ffffff;
+}
+.sect-2-service-detail .box-2 {
+  width: 270px;
+  height: 242px;
+  border-radius: 6px;
+}
+.sect-2-service-detail .box-3 {
+  margin-top: 24px;
+  width: 270px;
+  height: 242px;
+  border-radius: 6px;
+}
+.sect-2-service-detail .box-4 {
+  margin-top: 24px;
+  width: 270px;
+  height: 242px;
+  border-radius: 6px;
+  background-color: #daf9f3;
+}
+.sect-2-service-detail h2 {
+  color: #1a4e8d;
+  font-weight: 700;
+  line-height: 56px;
+  font-size: 40px;
+  margin-left: 72px;
+}
+.sect-2-service-detail p {
+  margin-left: 72px;
+}
+.sect-2-service-detail .last-txt {
+  margin-top: 20px;
 }/*# sourceMappingURL=main.css.map */
