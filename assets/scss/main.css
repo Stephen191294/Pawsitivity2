@@ -538,6 +538,7 @@ section {
   color: #116b5a;
   padding: 10px 25px;
   border-radius: 20px;
+  cursor: pointer;
 }
 .sect-1-service-detail .sect-1-container h1 {
   color: #1a4e8d;
@@ -553,15 +554,32 @@ section {
 .sect-2-service-detail .col-md-6 {
   display: flex;
   margin: 0;
+  width: 46%;
 }
 .sect-2-service-detail .box-1 {
+  padding: 28px 24px 38px 24px;
   background-color: #1a4e8d;
   width: 270px;
   height: 242px;
   border-radius: 6px;
 }
+.sect-2-service-detail .box-1 .box-1-txt {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
 .sect-2-service-detail .box-1 p {
   color: #ffffff;
+  font-weight: 600;
+  line-height: 30px;
+  font-size: 20px;
+  white-space: nowrap;
+  margin: 0;
+  margin-top: 10px;
+}
+.sect-2-service-detail .box-1 .paw-1 {
+  margin-left: 200px;
+  margin-bottom: 16px;
 }
 .sect-2-service-detail .box-2 {
   width: 270px;
@@ -580,6 +598,7 @@ section {
   height: 242px;
   border-radius: 6px;
   background-color: #daf9f3;
+  padding: 29px 24px 68px 24px;
 }
 .sect-2-service-detail h2 {
   color: #1a4e8d;
@@ -588,9 +607,17 @@ section {
   font-size: 40px;
   margin-left: 72px;
 }
-.sect-2-service-detail p {
-  margin-left: 72px;
-}
 .sect-2-service-detail .last-txt {
   margin-top: 20px;
+}
+.sect-2-service-detail .paw-4 {
+  margin-left: 200px;
+  margin-top: 35px;
+}
+.sect-2-service-detail .box-4-txt {
+  margin-top: 29px;
+}
+
+.right-text p {
+  margin-left: 72px;
 }/*# sourceMappingURL=main.css.map */
