@@ -545,23 +545,28 @@ img {
 
 .body-appointment{
   margin: 141px 132px 141px 132px;
+  background-color: rgb(0, 0, 0, 40% )
+
+  
   
 }
 
 
-
 .sect-1-container-appointment{
-
-  border: 1px solid black;
   width: 1176px;
   height: 618px;
   border-radius: 12px;
+  background-color: $mainColor2;
   .sect-1-cat-apppointment{
     height: 100% ;
     border-radius: 12px 0 0 12px
   }
+
   .input-container{
+    display: flex;
+    flex-direction: column;
     margin: 70px 31px 70px;
+    //background-color: $mainColor2;
     h1{
       color:$mainColor;
       
@@ -583,9 +588,10 @@ img {
       border-radius: 6px;
       background-color: $Grey;
       border: none;
+      padding: 9px 
     }
     .top-form{
-      margin-top: 24px ;
+      margin-top: 24px 0 78px 12px ;
     }
     .bottom-form{
       margin-top: 17px;
@@ -595,6 +601,19 @@ img {
   .close{
     margin-top: 32px;
     margin-left: 500px;
+  }
+  button{
+    margin-top: 49px;
+    width: 207px;
+    height: 52px;
+    border-radius: 26px;
+    background-color: $green;
+    color:$darkGreen;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    
   }
 }
 
