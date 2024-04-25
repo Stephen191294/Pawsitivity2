@@ -696,4 +696,9 @@ section {
   font-size: 18px;
   font-weight: 400;
   border: none;
+}
+
+.vertical-line {
+  border-left: 1px solid #000; /* Adjust thickness and color as needed */
+  height: 100px; /* Adjust height as needed */
 }/*# sourceMappingURL=main.css.map */
