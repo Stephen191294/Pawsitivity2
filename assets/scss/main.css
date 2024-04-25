@@ -645,6 +645,16 @@ section {
 }
 .sect-1-container-appointment .input-container h1 {
   color: #1a4e8d;
+  margin-bottom: 24px;
+}
+.sect-1-container-appointment .input-container select {
+  width: 210px;
+  height: 43px;
+  margin-right: 17px;
+  border-radius: 6px;
+  background-color: #f3f4f6;
+  border: none;
+  padding-left: 16px;
 }
 .sect-1-container-appointment .input-container input {
   width: 210px;
@@ -653,7 +663,6 @@ section {
   border-radius: 6px;
   background-color: #f3f4f6;
   border: none;
-  padding: auto;
   padding-left: 16px;
 }
 .sect-1-container-appointment .input-container textarea {
@@ -674,6 +683,7 @@ section {
 .sect-1-container-appointment .close {
   margin-top: 32px;
   margin-left: 500px;
+  cursor: pointer;
 }
 .sect-1-container-appointment button {
   margin-top: 49px;

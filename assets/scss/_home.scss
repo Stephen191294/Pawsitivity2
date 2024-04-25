@@ -569,6 +569,17 @@ img {
     //background-color: $mainColor2;
     h1{
       color:$mainColor;
+      margin-bottom: 24px;
+      
+    }
+    select{
+      width: 210px;
+      height: 43px;
+      margin-right: 17px ;
+      border-radius: 6px;
+      background-color: $Grey;
+      border: none;
+      padding-left: 16px;
       
     }
     input{
@@ -578,7 +589,6 @@ img {
       border-radius: 6px;
       background-color: $Grey;
       border: none;
-      padding: auto;
       padding-left: 16px;
     }
     textarea{
@@ -601,6 +611,7 @@ img {
   .close{
     margin-top: 32px;
     margin-left: 500px;
+    cursor: pointer;
   }
   button{
     margin-top: 49px;
