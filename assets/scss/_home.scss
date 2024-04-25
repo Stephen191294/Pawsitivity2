@@ -350,6 +350,7 @@ img {
     position: absolute;
 	margin-bottom: 300px;
 	z-index: 2;
+  
 }
 
 }
@@ -366,7 +367,7 @@ img {
 	position: absolute;
 	background-color: $mainColor2;
 	height: 430px;
-	width: 468px;
+	width: 474px;
 	border-radius: 12px 0 0 12px;
 	box-shadow: -2px -1px 4px 0 gray;
 	z-index: 2;
@@ -385,6 +386,7 @@ img {
 	padding-right: 50px;
 	p{
       margin-top: 36px;
+     white-space: nowrap;
 }
   }
 
@@ -541,9 +543,60 @@ img {
   }
 }
 
+.body-appointment{
+  margin: 141px 132px 141px 132px;
+  
+}
 
 
 
+.sect-1-container-appointment{
+
+  border: 1px solid black;
+  width: 1176px;
+  height: 618px;
+  border-radius: 12px;
+  .sect-1-cat-apppointment{
+    height: 100% ;
+    border-radius: 12px 0 0 12px
+  }
+  .input-container{
+    margin: 70px 31px 70px;
+    h1{
+      color:$mainColor;
+      
+    }
+    input{
+      width: 210px;
+      height: 43px;
+      margin-right: 17px ;
+      border-radius: 6px;
+      background-color: $Grey;
+      border: none;
+      padding: auto;
+      padding-left: 16px;
+    }
+    textarea{
+      margin-top: 17px;
+      width: 437px;
+      height: 113px;
+      border-radius: 6px;
+      background-color: $Grey;
+      border: none;
+    }
+    .top-form{
+      margin-top: 24px ;
+    }
+    .bottom-form{
+      margin-top: 17px;
+    }
+  }
+ 
+  .close{
+    margin-top: 32px;
+    margin-left: 500px;
+  }
+}
 
 
 
