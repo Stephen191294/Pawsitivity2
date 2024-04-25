@@ -701,4 +701,16 @@ section {
 .vertical-line {
   border-left: 1px solid #000; /* Adjust thickness and color as needed */
   height: 100px; /* Adjust height as needed */
+}
+
+.sect-1-about {
+  display: flex;
+  flex-direction: column;
+}
+.sect-1-about .sect-1-img-text {
+  justify-content: space-between;
+}
+.sect-1-about .sect-1-img-text-2 {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
