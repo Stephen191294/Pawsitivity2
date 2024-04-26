@@ -5,8 +5,10 @@
 @use "./about";
 @use "./blogs";
 @use "./contact-us";
-@use "./make-appointment";
-@use "./service-detail";
-@use "./services";
+@use "./make-appointment.scss";
+@use  "./service-detail";
 @use "./location&hours";
+@use "./services";
+@use "./footer.scss";
+
 

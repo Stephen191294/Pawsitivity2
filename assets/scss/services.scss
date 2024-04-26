@@ -3,7 +3,6 @@
 @import "./globals";
 
 
-
 .sect-1-services {
 	display: flex;
 	padding-right: 107px;
@@ -206,87 +205,7 @@ img {
 
 }
 
-.container-services {
-	width: 60%;
-	margin: 0 auto;
-	margin-bottom: 200px;
-	img{
-    position: absolute;
-	margin-bottom: 300px;
-	z-index: 2;
-  
-}
 
-}
 
-.blue-strip {
-	position: relative;
-	background-color: $mainColor;
-	height: 314px;
-	z-index: -2;
-}
 
-.custom-box-services {
-	display: flex;
-	position: absolute;
-	background-color: $mainColor2;
-	height: 430px;
-	width: 474px;
-	border-radius: 12px 0 0 12px;
-	box-shadow: -2px -1px 4px 0 gray;
-	z-index: 2;
-	h3{
-    color: $mainColor;
-}
 
-.custom-box-puppy {
-	border-radius: 0 12px 12px 0;
-	box-shadow: 0 -1px 4px 0 gray;
-}
-
-.custom-box-container {
-	padding-top: 36px;
-	padding-left: 48px;
-	padding-right: 50px;
-	p{
-      margin-top: 36px;
-     white-space: nowrap;
-}
-  }
-
-.icon-btn-3 {
-	position: absolute;
-	top: 350px;
-	left: 419px;
-	cursor: pointer;
-}
-}
-
-.avatar-andrea {
-	display: flex;
-	flex-direction: row;
-	margin-top: 50px;
-	.rating{
-    margin-left: 70px;
-
-	.stars{
-      margin-top: 20px;
-}
-  }
-}
-
-.footer-services {
-	padding: 0 148px 0 132px;
-  p{
-    margin-top: 10px;
-  }
-}
-
-.puppy {
-	.icon-btn-2{
-    position: absolute;
-	top: 350px;
-	left: 481px;
-	cursor: pointer;
-}
-}
