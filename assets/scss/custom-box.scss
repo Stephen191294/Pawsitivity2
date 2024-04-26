@@ -3,11 +3,11 @@
 
 
 
-.container {
+.container-box {
 	width: 60%;
 	margin: 0 auto;
 	margin-bottom: 200px;
-	img{
+	.andrea-foto{
     position: absolute;
 	margin-bottom: 300px;
 	z-index: 2;
@@ -65,10 +65,13 @@
 	flex-direction: row;
 	margin-top: 50px;
 	.rating{
+		display: flex;
+		flex-direction: column;
     margin-left: 70px;
+		margin-top: 10px;
 
 	.stars{
-      margin-top: 20px;
+      margin-top: 10px;
 }
   }
 }

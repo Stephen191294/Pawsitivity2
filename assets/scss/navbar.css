@@ -41,7 +41,7 @@ section {
   width: 180px;
   height: 45px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .navbar .container .collapse .navbar-nav {
   gap: 35px !important;
