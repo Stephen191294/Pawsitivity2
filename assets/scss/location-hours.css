@@ -35,4 +35,36 @@ a {
 
 section {
   padding-top: 70px;
+}
+
+.sect-1 {
+  width: 100%;
+  height: 450px;
+}
+.sect-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 72px;
+}
+.text-container p {
+  font-weight: 400px;
+  line-height: 30px;
+  font-size: 20px;
+}
+.text-container .number {
+  color: #1a4e8d;
+}
+.text-container .address {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.sect-2 {
+  display: flex;
 }/*# sourceMappingURL=location-hours.css.map */

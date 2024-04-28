@@ -96,7 +96,7 @@ section {
 .avatar-andrea .rating {
   display: flex;
   flex-direction: column;
-  margin-left: 70px;
+  margin-left: 20px;
   margin-top: 10px;
 }
 .avatar-andrea .rating .stars {
