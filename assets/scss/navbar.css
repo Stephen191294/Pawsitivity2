@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 17px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+  max-width: 100% !important;
+  padding: 0 16px !important;
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    padding: 0 16px !important;
+    max-width: 1200px !important;
+  }
+}
+
+section {
+  padding-top: 70px;
+}
+
+.navbar .container .navbar-brand img {
+  width: 180px;
+  height: 45px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.navbar .container .collapse .navbar-nav {
+  gap: 35px !important;
+}
+.navbar .container .collapse .navbar-nav .nav-item a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #424955;
+  padding: 0;
+}
+.navbar .container .collapse .navbar-nav .nav-item a:hover {
+  color: #1a4e8d;
+}
+.navbar .container .collapse .btn-nav {
+  background: #1a4e8d;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  padding: 7px 18px;
+}/*# sourceMappingURL=navbar.css.map */
